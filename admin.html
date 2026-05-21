@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoLamEdu - Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a href="index.html" class="brand"><span>N</span>NoLamEdu</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <span id="auth-links"></span>
+      </nav>
+    </header>
+
+    <section class="hero auth-hero">
+      <div class="hero-copy">
+        <span class="section-badge">Administration</span>
+        <h1>Admin panel</h1>
+        <p>Manage user accounts for the NoLamEdu demo site.</p>
+      </div>
+      <div class="auth-card">
+        <h2>Users</h2>
+        <div id="admin-root">
+          <table style="width:100%;border-collapse:collapse;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:8px;">Email</th>
+                <th style="text-align:left;padding:8px;">Name</th>
+                <th style="text-align:left;padding:8px;">Role</th>
+                <th style="text-align:left;padding:8px;">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="admin-users-tbody"></tbody>
+          </table>
+          <p id="admin-message" class="auth-message"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 NoLamEdu. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
