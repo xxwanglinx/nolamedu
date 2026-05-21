@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoLamEdu - Register</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a href="index.html" class="brand"><span>N</span>NoLamEdu</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <span id="auth-links"></span>
+      </nav>
+    </header>
+
+    <section class="hero auth-hero">
+      <div class="hero-copy">
+        <span class="section-badge">Join NoLamEdu</span>
+        <h1>Create your student account.</h1>
+        <p>Register once to access lessons, track progress, and unlock your learning dashboard.</p>
+      </div>
+      <div class="auth-card">
+        <h2>Register</h2>
+        <form id="register-form" class="auth-form">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Create a password" required />
+
+          <label for="confirmPassword">Confirm password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required />
+
+          <button type="submit" class="button">Create account</button>
+          <p id="register-message" class="auth-message"></p>
+        </form>
+        <p class="auth-note">Already have an account? <a href="login.html">Log in</a>.</p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 NoLamEdu. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>

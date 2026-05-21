@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Python Fundamentals — NoLamEdu</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth.js" defer></script>
+  <script src="lessons.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a href="index.html" class="brand"><span>N</span>NoLamEdu</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <span id="auth-links"></span>
+      </nav>
+    </header>
+
+    <section class="section-block">
+      <h2>Python Fundamentals — Curriculum</h2>
+      <p>25 concise lessons that build real Python skills with hands-on exercises and a capstone project.</p>
+      <div id="python-progress" data-course="python" class="section-block">
+        <strong>Progress</strong>
+        <div style="margin-top:8px;">
+          <div id="progress-bar" style="height:12px;border-radius:8px;background:#eee;overflow:hidden;">
+            <div id="progress-fill" style="height:100%;width:0%;background:var(--primary);transition:width .3s"></div>
+          </div>
+          <div id="progress-text" style="margin-top:8px;color:var(--muted);font-size:0.95rem">0 / 25 lessons completed</div>
+        </div>
+      </div>
+
+      <ol id="lesson-list">
+        <li><a href="python-lessons/lesson-01.html">01 — Welcome & setup</a></li>
+        <li><a href="python-lessons/lesson-02.html">02 — Python syntax & REPL basics</a></li>
+        <li><a href="python-lessons/lesson-03.html">03 — Variables and data types</a></li>
+        <li><a href="python-lessons/lesson-04.html">04 — Strings and string methods</a></li>
+        <li><a href="python-lessons/lesson-05.html">05 — Numbers, arithmetic, and rounding</a></li>
+        <li><a href="python-lessons/lesson-06.html">06 — Control flow: if, elif, else</a></li>
+        <li><a href="python-lessons/lesson-07.html">07 — Loops: for & while</a></li>
+        <li><a href="python-lessons/lesson-08.html">08 — Functions and parameters</a></li>
+        <li><a href="python-lessons/lesson-09.html">09 — Collections: lists and list methods</a></li>
+        <li><a href="python-lessons/lesson-10.html">10 — Tuples, sets, and immutability</a></li>
+        <li><a href="python-lessons/lesson-11.html">11 — Dictionaries and mapping types</a></li>
+        <li><a href="python-lessons/lesson-12.html">12 — Comprehensions (list/dict/set)</a></li>
+        <li><a href="python-lessons/lesson-13.html">13 — Working with files (read/write)</a></li>
+        <li><a href="python-lessons/lesson-14.html">14 — Error handling and exceptions</a></li>
+        <li><a href="python-lessons/lesson-15.html">15 — Modules, packages, and imports</a></li>
+        <li><a href="python-lessons/lesson-16.html">16 — Object-oriented basics: classes & objects</a></li>
+        <li><a href="python-lessons/lesson-17.html">17 — Inheritance and composition</a></li>
+        <li><a href="python-lessons/lesson-18.html">18 — Iterators & generators</a></li>
+        <li><a href="python-lessons/lesson-19.html">19 — Decorators and higher-order functions</a></li>
+        <li><a href="python-lessons/lesson-20.html">20 — Regular expressions intro</a></li>
+        <li><a href="python-lessons/lesson-21.html">21 — Testing with unittest and simple debugging</a></li>
+        <li><a href="python-lessons/lesson-22.html">22 — Virtual environments and packaging basics</a></li>
+        <li><a href="python-lessons/lesson-23.html">23 — HTTP requests and JSON for APIs</a></li>
+        <li><a href="python-lessons/lesson-24.html">24 — Final project: build a small application</a></li>
+        <li><a href="python-lessons/lesson-25.html">25 — Next steps: learning paths & portfolio tips</a></li>
+      </ol>
+
+      <div class="form-actions">
+        <a class="button" href="contact.html">Enroll / Contact</a>
+        <a class="button-secondary" href="courses.html">Back to courses</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">&copy; 2026 NoLamEdu</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoLamEdu - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a href="index.html" class="brand"><span>N</span>NoLamEdu</a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="courses.html">Courses</a>
+          <a href="contact.html">Contact</a>
+          <span id="auth-links"></span>
+        <span class="section-badge">Get in touch</span>
+        <h1>We’re here to answer your questions.</h1>
+        <p>Whether you want a learning recommendation, pricing details, or program support, our team is ready to help you find the right fit.</p>
+        <div class="hero-cta">
+          <a href="#contact-form" class="button">Send a message</a>
+          <a href="mailto:hello@nolamedu.example" class="button-secondary">Email us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-grid" id="contact-form">
+      <div class="contact-card">
+        <h3>Contact details</h3>
+        <p>Let us know what matters most. We’ll respond within one business day.</p>
+        <p class="section-note">hello@nolamedu.example</p>
+        <p class="section-note">+1 (800) 123-4567</p>
+        <p class="section-note">Mon–Fri, 9am–6pm</p>
+      </div>
+
+      <form class="contact-card" action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us how we can help"></textarea>
+
+        <button type="submit" class="button">Send message</button>
+      </form>
+    </section>
+
+    <footer>
+      &copy; 2026 NoLamEdu. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
